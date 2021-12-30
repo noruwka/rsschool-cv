@@ -1,1 +1,2 @@
-<a href="https://noruwka.github.io/rsschool-cv/cv"></a>
+https://noruwka.github.io/rsschool-cv/cv
+https://noruwka.github.io/rsschool-cv/
