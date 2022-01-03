@@ -1,0 +1,236 @@
+  body {
+      background-color: #7883e4;
+  }
+  .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+.header::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #00CED1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: -50px;
+    top: -50px;
+}
+
+.headeravatar {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    width: 250px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 2;
+}
+.headeravatar::after {
+    content: '';
+    position: absolute;
+    right: -17px;
+    top: 14px;
+    display: block;
+    background-color: #00CED1;
+    width: 80px;
+    height: 80px;
+    opacity: .9;
+    border-radius: 50%;
+}
+.avatar {
+    border-radius: 50%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border: 15px solid var(--white);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+body {
+    /* width: 100%; */
+    font-family: 'ralewayregular';
+    /* color: var(--text-color); */
+}
+:root {
+    --main-color: #f0ae12;
+    --text-color: #363636;
+    --white: #ffffff;
+    --gray: #f3f4f5;
+    --light-gray: #e1e1e1;
+    --orange: #d6932e;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.column {
+    width: 40%;
+    background-color: #f3f4f5;
+}
+.name {
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    line-height: 55px;
+}
+.surname {
+    font-size: 55px;
+}
+.firstname
+{
+    font-family: 'Pushster', cursive;
+    color: #00CED1;
+    font-size: 65px;
+}
+.occupation {
+    font-size: 25px;
+}
+.contact-title {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    padding-top: 30px;
+}
+ul {
+    list-style: none;
+}
+.contact-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-left: 30px; 
+}
+.contact_image_github {
+    background-image: url(images/github.ico);
+    }
+.contact_image_vk{
+    background-image: url(images/vk.ico);
+    }
+.contact_image_tlg {
+    background-image: url(images/telegram.ico);
+    }
+.contact_image_mail {
+    background-image: url(images/mail.ico);
+    }
+.contact_image_live {
+    background-image: url(images/place.ico);
+    }
+.contact-image {
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.ref {
+    color: black;
+    text-decoration: none;
+    transition: all .4s linear;
+}
+
+.contact__link {
+color: black;
+font-size: 25px;
+text-decoration: none;
+transition: all .4s linear;
+}
+.education_bloc {
+    padding-left: 30px;
+}
+.date {
+    background-color: #00CED1;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.contact-wrapper1 {
+    padding-bottom: 15px;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.contact-wrapper1 {
+    list-style: square;
+    padding-right: 40px;
+    line-height: 40px;
+    padding-left: 60px;
+}
+
+.main {
+    display: flex;
+}
+
+.column-main {
+    background-color: white;
+    width: 60%;
+}
+.hey {
+    font-size: 25px;
+    padding-left: 30px;
+}
+.document-title work {
+    padding-left: 30px;
+
+}
+.eng {
+    padding-bottom: 30px;
+}
+.coding {
+    font-size: 25px;
+    padding-left: 30px;
+    color: gray;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(190, 141, 184);
+
+}
+.footer__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+}
+.footer__image {
+    width: 70px;
+    margin: 0 10px;
+}
