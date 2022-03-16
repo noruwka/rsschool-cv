@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSSchool CV</title>
-    <link rel="stylesheet" href="style.css"
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Pushster&family=Raleway&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="column">
-                <figure class="headeravatar">
-                    <img src="images/avatar.jpg" class="avatar" alt="Avatar">
-                </figure>
-            </div>
-            <div class="name">
+
                 <h1 class="surname">Alekperova <span class="firstname">Yuliya</span> </h1>
                 <h3 class="occupation">Web-developer</h3>
             </div>
